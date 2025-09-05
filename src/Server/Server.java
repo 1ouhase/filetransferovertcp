@@ -8,7 +8,7 @@ public class Server {
     Boolean running = true;
 
     public Server() throws IOException {
-        ServerSocket serverSocket = new ServerSocket(6969);
+        ServerSocket serverSocket = new ServerSocket(5000);
         System.out.println("Server started on port 6969");
 
         while(running){
